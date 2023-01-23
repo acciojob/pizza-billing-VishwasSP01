@@ -62,13 +62,14 @@ public class Pizza {
     public void addTakeaway(){
         // your code goes here
         if(!isTakeAwayAdded){
-            this.price += 20;
+            this.price +=20;
             isTakeAwayAdded = true;
         }
     }
 
     public String getBill(){
         // your code goes here
+
         if(!isBillGenerated)
         {
             if(isExtraCheeseAdded)
